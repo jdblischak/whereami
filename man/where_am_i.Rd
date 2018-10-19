@@ -4,7 +4,7 @@
 \alias{where_am_i}
 \title{Where am I?}
 \usage{
-where_am_i(wd = getwd(), start = c("home", "project", "root"))
+where_am_i(wd = getwd(), start = NULL, tilde = TRUE)
 }
 \description{
 Visualize your current working directory.

@@ -11,10 +11,12 @@ Description:
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Includes:
+Imports:
   cli,
   fs,
-  rprojroot
+  glue,
+  rprojroot,
+  stringr
 Suggests:
   testthat
 RoxygenNote: 6.1.0.9000
